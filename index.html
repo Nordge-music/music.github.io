@@ -6,9 +6,6 @@
   <meta name="description" content="Nordge est un projet musical indépendant mêlant trip-hop, ambient et musique expérimentale.">
   <meta name="author" content="Nordge">
 
-  <!-- Redirection après 3 secondes -->
-  <meta http-equiv="refresh" content="3;url=https://sites.google.com/view/nordge/accueil">
-
   <style>
     html, body {
       margin: 0;
@@ -30,7 +27,13 @@
   </style>
 </head>
 <body>
-  <!-- Utiliser l'image locale -->
   <img src="nordge-intro.jpg" alt="Nordge – projet musical">
+
+  <script>
+    // Redirection précise après 3 secondes
+    setTimeout(function() {
+      window.location.href = "https://sites.google.com/view/nordge/accueil";
+    }, 3000);
+  </script>
 </body>
 </html>
